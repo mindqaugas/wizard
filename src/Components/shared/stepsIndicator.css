@@ -1,0 +1,79 @@
+.indicator_step_outer{
+    width:950px;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCD5DA;
+}
+
+.indicator_step_container{
+    position: relative;
+    width:200px;
+    padding: 10px 0px;
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+}
+.indicator_line{
+    position: absolute;
+    top:45%;
+    left: 2px;
+    z-index: 2;
+    width: 196px;
+    height: 8px;
+    background-color: #788F9C;
+}
+.indicator_line_inner{
+    background-color: #DF0949;
+    height: 8px;
+    width:0px;
+    transition: ease 0.5s;
+}
+.indicator_step_container > div{
+   flex: 1;
+  
+}
+ .indicator_step_1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ .indicator_step_2{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .indicator_step_3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.indicator{
+    background-color: #788F9C;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+.indicator_active{
+    transition: ease 0.5s;
+    background-color: #092B45;
+}
+.indicator_active_passed{
+    background-color: #DF0949;
+}
+.indicator_bubble{
+    width: 40px;
+    height: 40px;
+}
+.indicator_inner_half{
+    width: 100px;
+}
+.indicator_inner_full{
+    width: 100%;
+}

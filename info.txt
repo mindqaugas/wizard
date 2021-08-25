@@ -1,0 +1,2 @@
+Para ver traducion en diferentes idiomas hace falta anadir "en" o "es"
+al final del dominio, por ejemplo https://localhost:3000/en

@@ -1,0 +1,54 @@
+.buttons_container{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    width:900px;
+    padding: 10px 0px;
+    border-top: 1px solid #CCCC;
+}
+
+.buttons_container > div{
+    flex:1;
+}
+
+
+.buttons_cancel{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+}
+
+.buttons_continue{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    
+}
+.button_cancel{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    
+
+}
+
+.button_continue{
+    background-color: #092B45;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}

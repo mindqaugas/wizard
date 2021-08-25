@@ -1,0 +1,119 @@
+.second_step_container{
+    width:100%;
+    max-width:900px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.second_step_title{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px 0px;
+   }
+.second_step_desc{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.second_step_inputs{
+    display:flex;
+    flex-direction: row;
+    padding: 30px 0px;
+}
+.second_step_input_lable{
+    font-weight: bold;
+    font-size: 14px;
+}
+.second_step_inputs_clave{
+    
+    width:250px;
+    height: 70px;
+
+}
+.second_step_inputs_clave > label{
+    position: relative;
+    width:250px;
+    
+
+}
+.second_step_inputs_clave2{
+    width:250px;
+    margin-left: 30px;
+    height: 70px;
+    
+}
+.second_step_inputs_clave2 > label{
+    position: relative;
+    width:250px;
+    
+
+}
+.second_step_input_eye{
+    position: absolute;
+    right: 0px;
+    top: 55%;
+    margin-right: 10px;
+    cursor: pointer;
+    
+   
+}
+.second_step_input_eye_open{
+    position: absolute;
+    right: 0px;
+    top: 55%;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #DF0949;
+    
+   
+}
+
+.second_step_input{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #CCD5DA;
+    border-radius: 3px;
+    padding: 0px 12px;
+    font-size: 16px;
+    margin: 5px 0px 2px 0px;
+}
+.pass_validation_danger{
+    color: #DF0949;
+    font-size: 14px;
+
+}
+.pass_validation_ok{
+    color: green;
+    font-size: 14px;
+}
+.second_step_pista_input{
+    width: 100%;
+    height: 60px;
+}
+.second_step_input_pista{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid #CCD5DA;
+    border-radius: 3px;
+    padding: 0px 12px;
+    font-size: 16px;
+}
+.second_step_pista_primero{
+    padding-bottom: 10px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.second_step_pista_segundo{
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.second_step_pista_input{
+    
+}
+.second_step_pista_length{
+    width:100%;
+    text-align: right;
+    padding-bottom: 50px;
+}

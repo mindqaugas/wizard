@@ -1,0 +1,11 @@
+.third_step_container{
+    width:1000px;
+    
+    
+    height: 550px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CCD5DA;
+}

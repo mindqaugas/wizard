@@ -1,0 +1,37 @@
+.fail_container{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.fail_container_top{
+    width: 100%;
+    padding: 20px;
+}
+.fail_container_title{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px 0px;
+}
+.fail_container_desc{
+    font-size: 14px;
+}
+.fail_container_bottom{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* flex:1; */
+}
+.fail_btn{
+    background-color: #DF0949;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+
+}

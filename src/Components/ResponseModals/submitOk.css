@@ -1,0 +1,37 @@
+.success_container{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.success_container_top{
+    width: 100%;
+    padding: 20px;
+}
+.success_container_title{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px 0px;
+}
+.success_container_desc{
+    font-size: 14px;
+}
+.success_container_bottom{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* flex:1; */
+}
+.success_btn{
+    background-color: #DF0949;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+
+}
